@@ -7,14 +7,11 @@ tweetbot is a python program which can be used to handle multiple twitter accoun
 
 By design tweetbot performs four actions.
 
-  a) Tweet a random quote from a quote API
-  
-  b) Tweet line by line from a line separated text file (ASCII characters) 
-     with a hash tag passed as argument.
-     
-  c) Retweet another tweet with the same hash tag which was passed earlier
-  
-  d) Retweet a tweet with a random hash tag of a particular interest.
+1. Tweet a random quote from a quote API
+2. Tweet line by line from a line separated text file (ASCII characters) 
+   with a hash tag passed as argument.
+3. Retweet another tweet with the same hash tag which was passed earlier
+4. Retweet a tweet with a random hash tag of a particular interest.
   
 By design,  all the four activities will spawn as separate processes and 
 some are limited by hard coded numbers (~50) and the time period between 
